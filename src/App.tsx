@@ -73,7 +73,7 @@ const App = () => {
 
     return (
         <Admin
-            title=""
+            title="Offerly Admin"
             dataProvider={dataProvider}
             customReducers={{ theme: themeReducer }}
             customRoutes={customRoutes}
